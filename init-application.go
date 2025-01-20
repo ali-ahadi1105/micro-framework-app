@@ -19,8 +19,8 @@ func initialApp() *application {
 		log.Fatal(err)
 	}
 
+	quo.InfoLog.Println("Debug value is set to: ", quo.Debug)
 	quo.AppName = "firtsApp"
-	quo.Debug = true
 
 	app := &application{
 		App: quo,

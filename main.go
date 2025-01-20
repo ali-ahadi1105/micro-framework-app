@@ -9,5 +9,6 @@ type application struct {
 }
 
 func main() {
-	initialApp()
+	q := initialApp()
+	q.App.ListenAndServe()
 }

@@ -12,8 +12,6 @@ func (q *Quokka) createDirIfNotExist(path string) error {
 	}
 	return nil
 }
-<<<<<<< HEAD
-=======
 
 func (q *Quokka) createFileIfNotExists(path string) error {
 	var _, err = os.Stat(path)
@@ -28,4 +26,3 @@ func (q *Quokka) createFileIfNotExists(path string) error {
 	}
 	return nil
 }
->>>>>>> 5b5318a (Initial an project structure with micro framework)
