@@ -1,6 +1,7 @@
 # github.com/ali-ahadi1105/Quokka v0.0.0-20250119052130-1a93aa5f0414 => ../Quokka
 ## explicit; go 1.23.3
 github.com/ali-ahadi1105/Quokka
+github.com/ali-ahadi1105/Quokka/render
 # github.com/go-chi/chi/v5 v5.2.0
 ## explicit; go 1.14
 github.com/go-chi/chi/v5
